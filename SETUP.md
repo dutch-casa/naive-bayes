@@ -5,9 +5,29 @@ This guide will help you set up and run the Naive Bayes spam classifier notebook
 ## Prerequisites
 
 - **Python 3.13+** (or Python 3.10+)
-- **uv** package manager (recommended) or **pip**
+- **uv** package manager (optional, recommended)
 
-## Installation Steps
+## Quick Start (Recommended)
+
+The easiest way to get started is with the automated setup script:
+
+```bash
+./setup.sh
+```
+
+This single command will:
+- Detect if you have `uv` installed (uses it if available, falls back to `pip`)
+- Create a virtual environment
+- Install all dependencies
+- Register the Jupyter kernel
+
+**That's it!** After running the script, follow the on-screen instructions to start Jupyter.
+
+---
+
+## Manual Installation
+
+If you prefer to set up manually, follow one of these options:
 
 ### Option 1: Using `uv` (Recommended)
 
